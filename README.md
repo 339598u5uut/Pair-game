@@ -34,6 +34,10 @@
 5.	Запускаем проект при помощи Live Server.
 
 
+## Функциональное тестирование с использованием Cypress:
+    npm run e2e
+
+
 ## Поиграть: [GitHubPages](https://339598u5uut.github.io/Pair-game/)
 
 

@@ -1,16 +1,20 @@
 {
     "private": true,
+    "homepage": "https://339598u5uut.github.io/Pair-game/",
     "scripts": {
         "lint": "eslint ./",
-        "lint:report": "eslint --format gitlab ./"
+        "lint:report": "eslint --format gitlab ./",
+        "e2e": "cypress open",
+        "lint:fix": "eslint ./ --fix"
     },
     "author": "",
     "license": "ISC",
-    "homepage": "https://339598u5uut.github.io/Pair-game/",
     "devDependencies": {
+        "cypress": "^9.7.0",
         "eslint": "^7.15.0",
         "eslint-config-airbnb-base": "^14.2.1",
         "eslint-formatter-gitlab": "^2.1.0",
+        "eslint-plugin-cypress": "^2.12.1",
         "eslint-plugin-import": "^2.22.1"
     }
 }
